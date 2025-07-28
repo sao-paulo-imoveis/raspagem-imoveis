@@ -1,0 +1,17 @@
+# WebScraping
+scrapy
+playwright
+scrapy-playwright
+
+# Data Science + Utils
+pandas
+rapidfuzz
+requests
+streamlit
+pyarrow
+
+# AI + LLM + Analytics
+llama-index
+llama-index-llms-ollama
+langchain
+langchain-community

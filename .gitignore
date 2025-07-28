@@ -1,0 +1,65 @@
+# Ambientes Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+env/
+pip-log.txt
+
+# Jupyter Notebooks: arquivos de checkpoint e cache
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Dados (ajuste caso precise versionar alguns exemplos)
+data/
+!data/README.md           # mantém um arquivo README.md de exemplo
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.gz
+*.jsonl
+
+# Outputs temporários e logs
+*.log
+*.tmp
+*.bak
+
+# Resultados de Scrapy/Playwright (outputs e caches)
+.scrapy/
+playwright-report/
+playwright/.cache/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configs de IDE
+.vscode/
+.idea/
+
+# Arquivos ocultos de teste
+test_*.py
+
+# Arquivos de execução de testes e relatórios
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info
+
+# DVC (se for usar)
+.dvc/
+
+# Documentação gerada
+docs/_build/
+docs/*.html
+
+# Outros arquivos que você sabe que são temporários
